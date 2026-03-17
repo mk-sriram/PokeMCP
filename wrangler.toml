@@ -1,0 +1,6 @@
+name = "poke-planner-mcp"
+main = "src/index.ts"
+compatibility_date = "2026-03-16"
+
+[observability]
+enabled = true
