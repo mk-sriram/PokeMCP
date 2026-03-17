@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Private MCP server for daily route planning from Poke.",
   "scripts": {
+    "generate:poke-secret": "node scripts/generate-poke-secret.mjs",
     "test": "vitest run",
     "dev": "wrangler dev",
     "deploy": "wrangler deploy"
